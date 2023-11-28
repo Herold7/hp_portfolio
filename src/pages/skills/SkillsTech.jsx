@@ -11,12 +11,12 @@ function SkillsTech() {
         },
         {
             picture: '../../assets/media/img/logo/ccs3.png',
-            value: "80",
+            value: "70",
             type:"basic",
         },
         {
             picture: '../../assets/media/img/logo/js.png',
-            value: "50",
+            value: "60",
             type:"warning",
         },
         {
@@ -26,7 +26,7 @@ function SkillsTech() {
         },
         {
             picture: '../../assets/media/img/logo/React.png',
-            value: "50",
+            value: "60",
             type:"success",
         },
     ];
@@ -34,7 +34,7 @@ function SkillsTech() {
     const skillsTech2 = [
         {
             picture: '../../assets/media/img/logo/vscode.png',
-            value: "50",
+            value: "70",
             type:"basic",
         },
         {
@@ -54,7 +54,7 @@ function SkillsTech() {
         },
         {
             picture: '../../assets/media/img/logo/github.png',
-            value: "50",
+            value: "60",
             type:"warning",
         },
     ];
@@ -69,7 +69,7 @@ function SkillsTech() {
                             aria-valuemax="100">
                             <img className="language_skills" src={skill.picture} alt="logo_des_langages" />
                             <div className={`progress-bar progress-bar-striped bg-${skill.type}`}
-                                style={{ width: '50%', fontSize: '1.5rem' }}>
+                                style={{ width: `${skill.value}%`, fontSize: '1.5rem' }}>
                                 {skill.value}%</div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function SkillsTech() {
                             aria-label={`striped example 20px high${skill.type}`} aria-valuenow={skill.value} aria-valuemin="0"
                             aria-valuemax="100">
                             <img className="technologie_skills" src={skill.picture} alt="logo_des_technologies" />
-                            <div className={`progress-bar progress-bar-striped bg-${skill.type}`} style={{ width: '50%', fontSize: '1.5rem' }}>{skill.value}%
+                            <div className={`progress-bar progress-bar-striped bg-${skill.type}`} style={{ width: `${skill.value}%`, fontSize: '1.5rem' }}>{skill.value}%
                             </div>
                         </div>
                     </div>
