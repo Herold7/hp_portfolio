@@ -1,0 +1,218 @@
+:root {
+    --header-height: 3.5rem;
+    /*56px*/
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+
+    --first-color: #d6974d;
+    --first-color-alt: #b98443;
+    --title-color: #277aff;
+    --title-color-alt: #d8ebfd;
+
+    --title-color-gradient: linear-gradient(115deg, rgba(214, 151, 77, 1) 45%, rgba(39, 122, 255, 1) 55%, rgba(216, 235, 253, 1) 100%);
+    --text-color: #60768a;
+    --text-color-light: #c9c5c3;
+    --body-color: #FFF;
+    --container-color: #f8f9fa;
+
+
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --title-font: 'Plus Jakarta Sans', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== Margenes Bottom ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body,
+button,
+input,
+textarea,
+p {
+    font-family: var(--text-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    height: 1000px;
+    overflow-x: hidden;
+    margin: var(--header-height) 0 0 0;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: .4s;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--title-font);
+}
+
+
+p {
+    font-family: var(--text-color);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================== NAV ====================*/
+.bg-image {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+}
+
+.navbar {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.navbar-scrolled {
+    background-color: var(--first-color-alt);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+
+}
+
+#navActive a.active {
+    color: var(--title-color);
+}
+
+/* ==================== HERO ====================*/
+
+.hero {
+    display: flex;
+    margin-top: 20rem;
+    justify-content: center;
+    margin-bottom: 20rem;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: var(--container-color);
+    padding: 2rem;
+}
+
+.hero__data h1 span {
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.hero__data {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.hero__data ul {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.hero__data li {
+    display: flex;
+    flex-direction: column-reverse;
+    color: var(--container-color);
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.hero__data li>i {
+    font-size: 7rem;
+}
+
+.contain>h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    background: var(--title-color-gradient);
+    text-transform: capitalize;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.competences {
+    width: calc(100% - 20rem) !important;
+}
+
+.competences__data h2 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: var(--first-color);
+    position: absolute;
+
+}
+
+.competences__data-technologie h2 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: var(--title-color);
+    position: absolute;
+    margin-top: 3rem;
+}
