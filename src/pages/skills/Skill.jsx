@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../../components/Nav";
-import { useState } from "react";
 import Experiences from "./Experiences";
 import SkillsTech from "./SkillsTech";
 import SkillThird from "./SkillThird";
@@ -26,7 +25,8 @@ function Skill() {
                                 langages
                             </h2>
                         </div>
-                        <SkillsTech />
+                        
+                        <SkillsTech /> 
                     </div>
                 </section>
 

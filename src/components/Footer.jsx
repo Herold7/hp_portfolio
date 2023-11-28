@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import linkedin from '../../public/assets/media/img/logo/linkedin2.png';
+import gitHub from '../../public/assets/media/img/logo/github.png';
+
 
 
 function Footer() {
@@ -14,13 +17,13 @@ function Footer() {
                 </div>
                 <div className="col-auto">
                     <Link to ="/contact" className="small link-underline link-underline-opacity-0"
-                        style={{fontSize:'2rem',color:'#ffffff'}}>contact</Link>
+                        style={{fontSize:'2rem',color:'#000'}}>contact</Link>
                     <span className="mx-1">&middot;</span>
-                    <Link to="https://linkedin.com/" className="small"><i className="fa-brands fa-linkedin"
-                            style={{textDecoration:'none',fontSize:'2rem',color:'#ffffff'}}></i></Link>
+                    <Link to="https://linkedin.com/" className="small"><img src={linkedin}
+                            style={{width:'2.3rem',marginBottom:'.5rem'}} /></Link>
                     <span className="mx-1">&middot;</span>
-                    <Link to="https://github.com" className="small"><i className="fa-brands fa-github"
-                            style={{listStyle:'none',fontSize:'2rem',color:'#ffffff'}}></i></Link>
+                    <Link to="https://github.com" className="small"><img src={gitHub}
+                            style={{width:'2.5rem',marginBottom:'.5rem'}} /></Link>
                 </div>
             </div>
         </div>

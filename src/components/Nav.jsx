@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import home from '../../public/assets/media/img/logo/home.png'
 
 
 function Nav() {
@@ -59,7 +59,7 @@ function Nav() {
                         </li>
                         <li className="nav-item ">
                             <NavLink to="/" className="nav-link" style={{paddingBottom:".75rem"}}>
-                                <i className="fa-solid fa-house" style={{fontSize:"2rem"}}></i>
+                                <img src={home} style={{width:"2.5rem", marginBottom:"1rem"}} />
                             </NavLink>
                         </li>
                     </ul>

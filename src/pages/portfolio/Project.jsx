@@ -8,7 +8,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture: "../../assets/media/img/bg/portfolioexistentia",
+        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -17,7 +17,7 @@ function Project() {
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
-        picture: "../../assets/media/img/bg/portfolioexistentia",
+        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
     },
@@ -26,7 +26,7 @@ function Project() {
         name: "Makeda-for-mariage",
         technology: "CMS",
         description: "Site de prestation musicale pour mariage",
-        picture: "../../assets/media/img/bg/portfoliomariage",
+        picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
     },

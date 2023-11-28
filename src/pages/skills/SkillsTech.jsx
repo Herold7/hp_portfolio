@@ -5,27 +5,27 @@ function SkillsTech() {
 
     const skillsTech1 = [
         {
-            picture: '<i class="fa-brands fa-html5"></i>',
+            picture: '../../../public/assets/media/img/logo/HTML5.png',
             value: "80",
             type:"danger",
         },
         {
-            picture: '../../assets/media/img/logo/ccs3.png',
+            picture: '../../../public/assets/media/img/logo/css3.png',
             value: "70",
             type:"basic",
         },
         {
-            picture: '../../assets/media/img/logo/js.png',
+            picture: '../../../public/assets/media/img/logo/js.png',
             value: "60",
             type:"warning",
         },
         {
-            picture: '../../assets/media/img/logo/php.png',
+            picture: '../../../public/assets/media/img/logo/php.png',
             value: "50",
             type:"info",
         },
         {
-            picture: '../../assets/media/img/logo/React.png',
+            picture: '../../../public/assets/media/img/logo/React.png',
             value: "60",
             type:"success",
         },
@@ -33,27 +33,27 @@ function SkillsTech() {
 
     const skillsTech2 = [
         {
-            picture: '../../assets/media/img/logo/vscode.png',
+            picture: '../../../public/assets/media/img/logo/vscode.png',
             value: "70",
             type:"basic",
         },
         {
-            picture: '../../assets/media/img/logo/PhpStorm.png',
+            picture: '../../../public/assets/media/img/logo/PhpStorm.png',
             value: "50",
             type:"success",
         },
         {
-            picture: '../../assets/media/img/logo/mysql.png',
+            picture: '../../../public/assets/media/img/logo/mysqlWorkbench.png',
             value: "50",
             type:"danger",
         },
         {
-            picture: '../../assets/media/img/logo/git.png',
+            picture: '../../../public/assets/media/img/logo/git.png',
             value: "50",
             type:"info",
         },
         {
-            picture: '../../assets/media/img/logo/github.png',
+            picture: '../../../public/assets/media/img/logo/github.png',
             value: "60",
             type:"warning",
         },

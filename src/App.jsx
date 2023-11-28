@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
-import bghero1 from './assets/media/img/bg/bghero1.png';
+import bghero1 from '../public/assets/media/img/bg/bghero1.png';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import portrait from './assets/media/img/portrait/portrait.png';
+import portrait from '../public/assets/media/img/portrait/portrait.png';
+import code from '../public/assets/media/img/logo/code.png';
+import bdd from '../public/assets/media/img/logo/bdd.png';
+import cms from '../public/assets/media/img/logo/cms.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 function App() {
 
@@ -22,9 +23,9 @@ function App() {
                             <br />et je suis <span>développeur web</span>
                         </h1>
                         <ul>
-                            <li>front <i className="fa-solid fa-code lg"></i></li>
-                            <li>back <i className="fa-solid fa-database lg"></i></li>
-                            <li>CMS <i className="fa-brands fa-wordpress-simple lg"></i></li>
+                            <li>front <img src={code} style={{width:"15rem", marginBottom:"1rem"}} alt="deux chevrons qui insert un slash" /></li>
+                            <li>back <img src={bdd} style={{width:"15rem", marginBottom:"1rem"}} alt="base de données" /></li>
+                            <li>CMS <img src={cms} style={{width:"15rem", marginBottom:"1rem"}} alt="deux chevrons qui insert un slash" /></li>
                         </ul>
                     </div>
                 </section>
@@ -70,3 +71,4 @@ function App() {
 }
 
 export default App;
+

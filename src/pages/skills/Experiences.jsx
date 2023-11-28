@@ -1,14 +1,13 @@
 import React from "react";
-import { useState } from "react";
 
 function Experiences() {
 
     const resumExp = [
         {
-            date: "2019 - Present",
-            position: "Senior graphic design specialist",
-            company: "",
-            location: "Experion, New York, NY",
+            date: "2023",
+            position: "Développeur stagiaire",
+            company: "A-team Development",
+            location: "Colombes",
             description: "Le client était une agence de voyage de luxe pour le Mozambique. L'objectif étaient de gagner en visibilité afin d\'accroître leur base de prospect et de futur membres. Ce stage m\'a permis de confronter mes connaissances, acquisent lors de la formation DWWM, à un projet concret.",
         },
         {
