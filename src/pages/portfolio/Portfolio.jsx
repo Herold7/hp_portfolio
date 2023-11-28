@@ -19,7 +19,7 @@ function Portfolio() {
                 </h1>
 
                 <Project />
-
+                
                 <section className=" p-5 m-5 bd-example m-5 shadow border-0 rounded-4" style={{ backgroundColor: 'var(--title-color)' }}>
                 <div className="card text-center" >
                     <div className="card-body ">

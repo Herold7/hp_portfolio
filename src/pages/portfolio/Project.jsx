@@ -8,7 +8,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
+        picture: "../../../public/assets/media/img/bg/portfolioevent.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -52,7 +52,7 @@ function Project() {
                 <div id="carouselExampleCaptions" className="carousel slide" style={{ backgroundColor:'black' }}>
                     <div className="carousel-indicators ">
                         {siteProject.map((site, index) => (
-                            <button key={index} type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={site.id} className={site.id === 0 ? 'active' : ''}
+                            <button key={index} type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={index} className={index === 0 ? 'active' : ''}
                                 aria-label={`Slide ${site.id + 1}`} aria-current={site.id === 0 ? 'true' : 'false'}></button>
                         ))}
                     </div>
