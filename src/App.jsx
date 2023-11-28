@@ -23,9 +23,9 @@ function App() {
                             <br />et je suis <span>développeur web</span>
                         </h1>
                         <ul>
-                            <li>front <img src={code} style={{width:"15rem", marginBottom:"1rem"}} alt="deux chevrons qui insert un slash" /></li>
-                            <li>back <img src={bdd} style={{width:"15rem", marginBottom:"1rem"}} alt="base de données" /></li>
-                            <li>CMS <img src={cms} style={{width:"15rem", marginBottom:"1rem"}} alt="deux chevrons qui insert un slash" /></li>
+                            <li>front <img src={code} style={{ width: "15rem", marginBottom: "1rem" }} alt="deux chevrons qui insert un slash" /></li>
+                            <li>back <img src={bdd} style={{ width: "15rem", marginBottom: "1rem" }} alt="base de données" /></li>
+                            <li>CMS <img src={cms} style={{ width: "15rem", marginBottom: "1rem" }} alt="deux chevrons qui insert un slash" /></li>
                         </ul>
                     </div>
                 </section>

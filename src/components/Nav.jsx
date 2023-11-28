@@ -5,7 +5,7 @@ import home from '../../public/assets/media/img/logo/home.png'
 
 function Nav() {
 
-    
+
     // const [scrolled, setScrolled] = useState(false);
 
     // useEffect(() => {
@@ -22,14 +22,14 @@ function Nav() {
     //     return () => {
     //         window.removeEventListener('scroll', handleScroll);
     //     };
-        
+
     // }, []); // Empty dependency array ensures that this effect runs once on mount
     // const navbarClasses = `navbar ${scrolled ? 'navbar-scrolled' : ''}`;
 
 
-    
+
     return (
-        <nav className="navbar navbar-expand-lg  fixed-top " style={{backgroundColor:'var(--first-color)'}} id="navActive">
+        <nav className="navbar navbar-expand-lg  fixed-top " style={{ backgroundColor: 'var(--first-color)' }} id="navActive">
             <div className="container p-4">
                 <Link to='/' className="navbar-brand text-capitalize">
                     <h1>hérold pommier</h1>
@@ -58,8 +58,8 @@ function Nav() {
                             </NavLink>
                         </li>
                         <li className="nav-item ">
-                            <NavLink to="/" className="nav-link" style={{paddingBottom:".75rem"}}>
-                                <img src={home} style={{width:"2.5rem", marginBottom:"1rem"}} />
+                            <NavLink to="/" className="nav-link" style={{ paddingBottom: ".75rem" }}>
+                                <img src={home} style={{ width: "2.5rem", marginBottom: "1rem" }} />
                             </NavLink>
                         </li>
                     </ul>

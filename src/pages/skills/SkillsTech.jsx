@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 function SkillsTech() {
 
@@ -7,27 +6,27 @@ function SkillsTech() {
         {
             picture: '../../../public/assets/media/img/logo/HTML5.png',
             value: "80",
-            type:"danger",
+            type: "danger",
         },
         {
             picture: '../../../public/assets/media/img/logo/css3.png',
             value: "70",
-            type:"basic",
+            type: "basic",
         },
         {
             picture: '../../../public/assets/media/img/logo/js.png',
             value: "60",
-            type:"warning",
+            type: "warning",
         },
         {
             picture: '../../../public/assets/media/img/logo/php.png',
             value: "50",
-            type:"info",
+            type: "info",
         },
         {
             picture: '../../../public/assets/media/img/logo/React.png',
             value: "60",
-            type:"success",
+            type: "success",
         },
     ];
 
@@ -35,27 +34,27 @@ function SkillsTech() {
         {
             picture: '../../../public/assets/media/img/logo/vscode.png',
             value: "70",
-            type:"basic",
+            type: "basic",
         },
         {
             picture: '../../../public/assets/media/img/logo/PhpStorm.png',
-            value: "50",
-            type:"success",
+            value: "60",
+            type: "success",
         },
         {
             picture: '../../../public/assets/media/img/logo/mysqlWorkbench.png',
-            value: "50",
-            type:"danger",
+            value: "70",
+            type: "danger",
         },
         {
             picture: '../../../public/assets/media/img/logo/git.png',
             value: "50",
-            type:"info",
+            type: "info",
         },
         {
             picture: '../../../public/assets/media/img/logo/github.png',
             value: "60",
-            type:"warning",
+            type: "warning",
         },
     ];
 

@@ -25,8 +25,8 @@ function Skill() {
                                 langages
                             </h2>
                         </div>
-                        
-                        <SkillsTech /> 
+
+                        <SkillsTech />
                     </div>
                 </section>
 
@@ -43,14 +43,14 @@ function Skill() {
                         </div>
                     </div>
                 </div>
-                
-        <SkillThird />
 
-                    <SkillHobbies />
+                <SkillThird />
+
+                <SkillHobbies />
 
 
             </main>
-<Footer />
+            <Footer />
         </>
     )
 }

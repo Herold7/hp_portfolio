@@ -8,8 +8,8 @@ function About() {
 
     return (
 
-<section className=" about container" data-aos="fade-down">
-            <div className="card mt-5 p-5 shadow border-0 rounded-4" style={{maxWidth:'100%',marginBottom:'5rem'}}>
+        <section className=" about container" data-aos="fade-down">
+            <div className="card mt-5 p-5 shadow border-0 rounded-4" style={{ maxWidth: '100%', marginBottom: '5rem' }}>
                 <div className="row g-0">
                     <div className="col-lg-4 ">
                         <img src={portrait} className="img-fluid rounded-start-4"
@@ -21,8 +21,8 @@ function About() {
                             <p className="card-text p-3 ms-3 fs-3 sm">
                                 Actuellement en formation, je suis passionné par l'univers dynamique et créatif du
                                 développement web.
-                                Ce que j'aime le plus dans le développement web, c'est la possibilité de donner vie à
-                                des idées innovantes et de résoudre des problèmes de manière créative. Chaque projet est
+                                Ce que m'attire dans cette voie, c'est la possibilité de donner vie à
+                                des idées innovantes et résoudre des problèmes de manière créative. Chaque projet est
                                 pour moi une nouvelle aventure où je m'efforce d'allier esthétique et fonctionnalité
                                 pour offrir une expérience utilisateur optimale.
 

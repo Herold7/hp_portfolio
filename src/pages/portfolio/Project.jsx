@@ -25,7 +25,7 @@ function Project() {
         id: 3,
         name: "Makeda-for-mariage",
         technology: "CMS",
-        description: "Site de prestation musicale pour mariage",
+        description: "Site de prestation musicale pour cérémoni de mariage",
         picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
@@ -49,7 +49,7 @@ function Project() {
             <section className=" p-5 m-5 bd-example m-5 shadow border-0 rounded-4 justify-content-md-center" data-aos="zoom-in">
                 <input className="p-3  m-5 shadow border-0 rounded-4 text-center" type="text" id="nomSiteFilter" placeholder="Filtrer par nom" value={searchTerm}
                     onChange={handleInputChange} />
-                <div id="carouselExampleCaptions" className="carousel slide" style={{ backgroundColor:'black' }}>
+                <div id="carouselExampleCaptions" className="carousel slide" style={{ backgroundColor: 'black' }}>
                     <div className="carousel-indicators ">
                         {siteProject.map((site, index) => (
                             <button key={index} type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={index} className={index === 0 ? 'active' : ''}
@@ -65,7 +65,7 @@ function Project() {
                                     <h2 className="fw-bold">{site.name}</h2>
                                     <p className="fs-2">{site.technology}</p>
                                     <p className="fs-2">{site.description}</p>
-                                    <a href={site.link} className="btn btn-primary fs-1 btn-lg m-5" role="button">Voir le
+                                    <a href={site.link} className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
                                         site</a>
                                 </div>
                             </div>

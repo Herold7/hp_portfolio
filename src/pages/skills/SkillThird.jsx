@@ -4,12 +4,12 @@ function SkillThird() {
     const skillHobThird = [
         {
             title: "Gestion administrative",
-            description: "Mes derrières expériences professionnelles et personnelles m'ont demandées d'organiser et d'administrer tant des évènements publics que les projections professionnelles de chercheurs d'emploi.",
-        target: "collapseOne",
+            description: "Mes dernières expériences professionnelles et personnelles m'ont demandées d'organiser et d'administrer tant des évènements publics que les projections professionnelles de chercheurs d'emploi.",
+            target: "collapseOne",
         },
         {
             title: "Animation",
-            description: "Par goût personnel et grâce à plusieurs expériences professionnelles et associatives, j'aime animé les rencontres collectives.",
+            description: "Par goût personnel et grâce à plusieurs expériences professionnelles et associatives, j'aime animer les rencontres collectives.",
             target: "collapseTwo",
         },
         {
@@ -17,7 +17,7 @@ function SkillThird() {
             description: "J'aime le chant sous toutes ses formes. J'ai eu l'occasion de monter et surtout de faire monter sur plusieurs scènes de spectacle des chanteurs et des musiciens.",
             target: "collapseThree",
         },
-        
+
     ];
 
 
