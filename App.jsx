@@ -24,7 +24,7 @@ function App() {
                         </h1>
                         <ul>
                             <li>front <img src={code} style={{ width: "15rem", marginBottom: "1rem" }} alt="deux chevrons qui insert un slash" /></li>
-                            <li>back <img src={bdd} style={{ width: "15rem", marginBottom: "1rem" }} alt="base de données" /></li>
+                            <li>back <img src={bdd} style={{ width: "11.5rem", marginBottom: "3rem" }} alt="base de données" /></li>
                             <li>CMS <img src={cms} style={{ width: "15rem", marginBottom: "1rem" }} alt="deux chevrons qui insert un slash" /></li>
                         </ul>
                     </div>
