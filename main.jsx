@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './styles/style.css'
 import App from './App.jsx'
-import Skill from './pages/skills/Skill';
-import Portfolio from './pages/portfolio/Portfolio.jsx';
-import Contact from './pages/contact/Contact.jsx'
+import Skill from './src/pages/skills/Skill.jsx';
+import Portfolio from './src/pages/portfolio/Portfolio.jsx';
+import Contact from './src/pages/contact/Contact.jsx'
 
 
 

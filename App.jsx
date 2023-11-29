@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
 import bghero1 from '../public/assets/media/img/bg/bghero1.png';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import Nav from './src/components/Nav';
+import Footer from './src/components/Footer';
 import portrait from '../public/assets/media/img/portrait/portrait.png';
 import code from '../public/assets/media/img/logo/code.png';
 import bdd from '../public/assets/media/img/logo/bdd.png';
