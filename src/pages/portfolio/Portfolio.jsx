@@ -26,8 +26,8 @@ function Portfolio() {
                             <h5 className="card-title display-2 fw-bold ">En route pour de nouveaux projets</h5>
                             <Link to="/contact" className="btn fs-1 m-5 px-5 text-white"
                                 style={{ backgroundColor: 'var(--text-color)' }}>Prenons contact</Link>
-                            <Link to={CV} download className="btn fs-1 m-5 px-5 text-white"
-                                style={{ backgroundColor: 'var(--first-color)' }}>Téléchagez mon cv</Link>
+                            <a href={CV} download className="btn fs-1 m-5 px-5 text-white"
+                                style={{ backgroundColor: 'var(--first-color)' }}>Téléchagez mon cv</a>
                         </div>
                     </div>
                 </section>
