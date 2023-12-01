@@ -28,6 +28,16 @@ function SkillsTech() {
             value: "60",
             type: "success",
         },
+        {
+            picture: '../../../public/assets/media/img/logo/Bootstrap.png',
+            value: "60",
+            type: "info",
+        },
+        {
+            picture: '../../../public/assets/media/img/logo/Symfony.png',
+            value: "50",
+            type: "danger",
+        },
     ];
 
     const skillsTech2 = [
@@ -55,6 +65,16 @@ function SkillsTech() {
             picture: '../../../public/assets/media/img/logo/github.png',
             value: "60",
             type: "warning",
+        },
+        {
+            picture: '../../../public/assets/media/img/logo/cms.png',
+            value: "80",
+            type: "sucess",
+        },
+        {
+            picture: '../../../public/assets/media/img/logo/Figma.png',
+            value: "60",
+            type: "danger",
         },
     ];
 

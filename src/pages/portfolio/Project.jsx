@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 
 
@@ -75,8 +76,8 @@ function Project() {
                                     <h2 className="fw-bold">{site.name}</h2>
                                     <p className="fs-2">{site.technology}</p>
                                     <p className="fs-2">{site.description}</p>
-                                    <a href={site.link} target="_blank" className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
-                                        site</a>
+                                    <Link to={site.link} target="_blank" className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
+                                        site</Link>
                                 </div>
                             </div>
                         ))}
