@@ -2,13 +2,14 @@ import React from "react";
 import { useState } from 'react';
 
 
+
 function Project() {
     const siteProject = [{
         id: 1,
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture: "../../../public/assets/media/img/bg/portfolioevent.png",
+        picture:'../../../public/assets/media/img/bg/portfolioevent.png',
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -29,6 +30,15 @@ function Project() {
         picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
+    },
+    {
+        id: 4,
+        name: "Platine_Music",
+        technology: "Wordpress",
+        description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
+        picture: "../../../public/assets/media/img/bg/portfolioplatine.png",
+        alt: "site de platine-musique",
+        link: "https://dev-platine-musique.pantheonsite.io"
     },
     ];
 
@@ -65,7 +75,7 @@ function Project() {
                                     <h2 className="fw-bold">{site.name}</h2>
                                     <p className="fs-2">{site.technology}</p>
                                     <p className="fs-2">{site.description}</p>
-                                    <a href={site.link} className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
+                                    <a href={site.link} target="_blank" className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
                                         site</a>
                                 </div>
                             </div>
