@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
+import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
+import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
 
 
 
@@ -10,7 +13,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture:'../../../public/assets/media/img/bg/portfolioevent.png',
+        picture:{portfolioevent},
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -19,7 +22,7 @@ function Project() {
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
-        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
+        picture: {portfolioexistentia},
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
     },
@@ -28,7 +31,7 @@ function Project() {
         name: "Makeda-for-mariage",
         technology: "CMS",
         description: "Site de prestation musicale pour cérémoni de mariage",
-        picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
+        picture: {portfoliomariage},
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
     },
@@ -37,7 +40,7 @@ function Project() {
         name: "Platine_Music",
         technology: "Wordpress",
         description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
-        picture: "../../../public/assets/media/img/bg/portfolioplatine.png",
+        picture:{portfolioevent},
         alt: "site de platine-musique",
         link: "https://dev-platine-musique.pantheonsite.io"
     },
