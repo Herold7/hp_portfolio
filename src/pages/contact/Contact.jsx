@@ -23,7 +23,7 @@ function Contact() {
                         </div>
                         <div className=" g-col-lg-4  mt-5 p-5 shadow border-0 rounded-4" data-aos="fade-right">
                             <img src={mail} style={{ width: '5rem', marginBottom: '3rem' }} />
-                            <h3 className="mail ">herold.pommier@gmail.com</h3>
+                            <h3 className="mail "> herold.pommier@gmail.com </h3>
                         </div>
                     </div>
                 </div>
