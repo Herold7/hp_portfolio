@@ -1,10 +1,6 @@
 import React from "react";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
-import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
-import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
-
 
 
 function Project() {
