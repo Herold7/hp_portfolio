@@ -13,7 +13,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture:{portfolioevent},
+        picture:"../../../public/assets/media/img/bg/portfolioevent.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -22,7 +22,7 @@ function Project() {
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
-        picture: {portfolioexistentia},
+        picture:"../../../public/assets/media/img/bg/portfolioexistentia.png",
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
     },
@@ -31,7 +31,7 @@ function Project() {
         name: "Makeda-for-mariage",
         technology: "CMS",
         description: "Site de prestation musicale pour cérémoni de mariage",
-        picture: {portfoliomariage},
+        picture:"../../../public/assets/media/img/bg/portfoliomariage.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
     },
@@ -40,7 +40,7 @@ function Project() {
         name: "Platine_Music",
         technology: "Wordpress",
         description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
-        picture:{portfolioevent},
+        picture:"../../../public/assets/media/img/bg/portfolioplatine.png",
         alt: "site de platine-musique",
         link: "https://dev-platine-musique.pantheonsite.io"
     },

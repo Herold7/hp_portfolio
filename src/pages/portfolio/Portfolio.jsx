@@ -27,7 +27,7 @@ function Portfolio() {
                             <Link to="/contact" className="btn fs-1 m-5 px-5 text-white"
                                 style={{ backgroundColor: 'var(--text-color)' }}>Prenons contact</Link>
                             <a href={CV} download className="btn fs-1 m-5 px-5 text-white"
-                                style={{ backgroundColor: 'var(--first-color)' }}>Téléchagez mon cv</a>
+                                style={{ backgroundColor: 'var(--first-color)' }}>Téléchargez mon cv</a>
                         </div>
                     </div>
                 </section>
