@@ -1,4 +1,4 @@
-import React from "reat";
+import React from "react";
 import portrait from "../../../public/assets/media/img/portrait/portrait.png";
 import { Link } from "react-router-dom";
 
