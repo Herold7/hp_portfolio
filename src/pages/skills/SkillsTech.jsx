@@ -1,10 +1,11 @@
 import React from "react";
+import html from "../../../public/assets/media/img/logo/HTML5.png";
 
 function SkillsTech() {
 
     const skillsTech1 = [
         {
-            picture: '../../../public/assets/media/img/logo/HTML5.png',
+            picture: {html},
             value: "80",
             type: "danger",
         },

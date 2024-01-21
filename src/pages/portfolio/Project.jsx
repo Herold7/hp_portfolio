@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import event from "../../../public/assets/media/img/bg/portfolioevent.png";
 
 
 function Project() {
@@ -8,7 +9,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture: "../../../public/assets/media/img/bg/portfolioevent.png",
+        picture: {event},
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
