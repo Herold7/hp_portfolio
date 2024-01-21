@@ -1,6 +1,10 @@
 import React from "react";
 import { useState } from 'react';
-import event from "../../../public/assets/media/img/bg/portfolioevent.png";
+import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
+import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
+import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
+import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
+import portfolioplatine from "../../../public/assets/media/img/bg/portfolioplatine.png";
 
 
 function Project() {
@@ -9,7 +13,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture: {event},
+        picture: portfolioevent,
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -18,7 +22,7 @@ function Project() {
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
-        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
+        picture: portfolioexistentia,
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
     },
@@ -26,10 +30,19 @@ function Project() {
         id: 3,
         name: "Makeda-for-mariage",
         technology: "CMS",
-        description: "Site de prestation musicale pour cérémoni de mariage",
-        picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
-        alt: "site de makeda for event",
+        description: "Site de prestation musicale pour cérémonie de mariage",
+        picture: portfoliomariage,
+        alt: "site de makeda for mariage",
         link: "https://www.makeda-for-mariage.com"
+    },
+    {
+        id: 4,
+        name: "Platine_Music",
+        technology: "Wordpress",
+        description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
+        picture: portfolioplatine,
+        alt: "site de platine-musique",
+        link: "https://dev-platine-musique.pantheonsite.io"
     },
     ];
 
