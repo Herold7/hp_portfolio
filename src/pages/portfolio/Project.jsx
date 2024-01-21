@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react';
-import { Link } from "react-router-dom";
+import event from "../../../public/assets/media/img/bg/portfolioevent.png";
 
 
 function Project() {
@@ -9,7 +9,7 @@ function Project() {
         name: "Makeda-for-event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
-        picture:"../../../public/assets/media/img/bg/portfolioevent.png",
+        picture: {event},
         alt: "site de makeda for event",
         link: "https://www.makeda-for-event.com"
     },
@@ -18,7 +18,7 @@ function Project() {
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
-        picture:"../../../public/assets/media/img/bg/portfolioexistentia.png",
+        picture: "../../../public/assets/media/img/bg/portfolioexistentia.png",
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
     },
@@ -27,18 +27,9 @@ function Project() {
         name: "Makeda-for-mariage",
         technology: "CMS",
         description: "Site de prestation musicale pour cérémoni de mariage",
-        picture:"../../../public/assets/media/img/bg/portfoliomariage.png",
+        picture: "../../../public/assets/media/img/bg/portfoliomariage.png",
         alt: "site de makeda for event",
         link: "https://www.makeda-for-mariage.com"
-    },
-    {
-        id: 4,
-        name: "Platine_Music",
-        technology: "Wordpress",
-        description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
-        picture:"../../../public/assets/media/img/bg/portfolioplatine.png",
-        alt: "site de platine-musique",
-        link: "https://dev-platine-musique.pantheonsite.io"
     },
     ];
 
@@ -75,8 +66,8 @@ function Project() {
                                     <h2 className="fw-bold">{site.name}</h2>
                                     <p className="fs-2">{site.technology}</p>
                                     <p className="fs-2">{site.description}</p>
-                                    <Link to={site.link} target="_blank" className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
-                                        site</Link>
+                                    <a href={site.link} className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
+                                        site</a>
                                 </div>
                             </div>
                         ))}

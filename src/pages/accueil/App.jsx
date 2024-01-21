@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import bghero1 from './public/assets/media/img/bg/bghero1.png';
-import Nav from './src/components/Nav';
-import Footer from './src/components/Footer';
-import About from './src/pages/accueil/About';
-import code from './public/assets/media/img/logo/code.png';
-import bdd from './public/assets/media/img/logo/bdd.png';
-import cms from './public/assets/media/img/logo/cms.png';
+import bghero1 from '../../../public/assets/media/img/bg/bghero1.png';
+import Nav from '../../components/Nav';
+import Footer from '../../components/Footer';
+import About from './About';
+import code from '../../../public/assets/media/img/logo/code.png';
+import bdd from '../../../public/assets/media/img/logo/bdd.png';
+import cms from '../../../public/assets/media/img/logo/cms.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
