@@ -3,14 +3,13 @@ import { useState } from 'react';
 import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
 import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
 import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
-import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
 import portfolioplatine from "../../../public/assets/media/img/bg/portfolioplatine.png";
 
 
 function Project() {
     const siteProject = [{
         id: 1,
-        name: "Makeda-for-event",
+        name: "Makeda_for_event",
         technology: "CMS",
         description: "Site internet d'évènementiel musicale",
         picture: portfolioevent,
@@ -28,7 +27,7 @@ function Project() {
     },
     {
         id: 3,
-        name: "Makeda-for-mariage",
+        name: "Makeda_for_mariage",
         technology: "CMS",
         description: "Site de prestation musicale pour cérémonie de mariage",
         picture: portfoliomariage,

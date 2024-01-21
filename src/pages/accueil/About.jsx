@@ -36,7 +36,7 @@ function About() {
                         <div className="d-grid gap-2 d-md-flex justify-content-md-center gap-5 mt-5">
                             <Link to="/competences" className="btn btn-primary fs-1 btn-lg m-auto"
                                 role="button">Compétences</Link>
-                            <Link to="/portfolio.html" className="btn btn-primary fs-1 btn-lg m-auto"
+                            <Link to="/portfolio" className="btn btn-primary fs-1 btn-lg m-auto"
                                 role="button">Portfolio</Link>
                         </div>
                     </div>
