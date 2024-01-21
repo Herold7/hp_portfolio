@@ -5,7 +5,7 @@ function SkillsTech() {
 
     const skillsTech1 = [
         {
-            picture: {html5},
+            picture: html5,
             value: "80",
             type: "danger",
             name:"Html",
