@@ -1,5 +1,18 @@
 import React from "react";
 import html5  from "../../../public/assets/media/img/logo/HTML5.png";
+import css  from "../../../public/assets/media/img/logo/css3.png";
+import js  from "../../../public/assets/media/img/logo/js.png";
+import php  from "../../../public/assets/media/img/logo/php.png";
+import react  from "../../../public/assets/media/img/logo/React.png";
+import bootstrap  from "../../../public/assets/media/img/logo/bootstrap.png";
+import symfony  from "../../../public/assets/media/img/logo/symfony.png";
+import vsc  from "../../../public/assets/media/img/logo/vscode.png";
+import phpstorm  from "../../../public/assets/media/img/logo/PhpStorm.png";
+import workbench  from "../../../public/assets/media/img/logo/mysqlWorkbench.png";
+import git  from "../../../public/assets/media/img/logo/git.png";
+import github  from "../../../public/assets/media/img/logo/github.png";
+import cms  from "../../../public/assets/media/img/logo/cms.png";
+import figma  from "../../../public/assets/media/img/logo/Figma.png";
 
 function SkillsTech() {
 
@@ -11,37 +24,37 @@ function SkillsTech() {
             name:"Html",
         },
         {
-            picture: '../../../public/assets/media/img/logo/css3.png',
+            picture: css,
             value: "70",
             type: "primary",
             name:"Css",
         },
         {
-            picture: '../../../public/assets/media/img/logo/js.png',
+            picture: js,
             value: "60",
             type: "warning",
             name:"Js",
         },
         {
-            picture: '../../../public/assets/media/img/logo/php.png',
+            picture: php,
             value: "50",
             type: "info",
             name:"Php",
         },
         {
-            picture: '../../../public/assets/media/img/logo/React.png',
+            picture: react,
             value: "60",
             type: "success",
             name:"React",
         },
         {
-            picture: '../../../public/assets/media/img/logo/Bootstrap.png',
+            picture: bootstrap,
             value: "60",
             type: "info",
             name:"Bootstrap",
         },
         {
-            picture: '../../../public/assets/media/img/logo/Symfony.png',
+            picture: symfony,
             value: "50",
             type: "danger",
             name:"Symfony",
@@ -50,43 +63,43 @@ function SkillsTech() {
 
     const skillsTech2 = [
         {
-            picture: '../../../public/assets/media/img/logo/vscode.png',
+            picture: vsc,
             value: "70",
             type: "primary",
             name:"Vscode",
         },
         {
-            picture: '../../../public/assets/media/img/logo/PhpStorm.png',
+            picture: phpstorm,
             value: "60",
             type: "success",
             name:"PhpStorm",
         },
         {
-            picture: '../../../public/assets/media/img/logo/mysqlWorkbench.png',
+            picture: workbench,
             value: "70",
             type: "danger",
             name:"MysqlWorkbench",
         },
         {
-            picture: '../../../public/assets/media/img/logo/git.png',
+            picture: git,
             value: "50",
             type: "info",
             name:"Git",
         },
         {
-            picture: '../../../public/assets/media/img/logo/github.png',
+            picture: github,
             value: "60",
             type: "warning",
             name:"Github",
         },
         {
-            picture: '../../../public/assets/media/img/logo/cms.png',
+            picture: cms,
             value: "80",
             type: "success",
             name:"Cms",
         },
         {
-            picture: '../../../public/assets/media/img/logo/Figma.png',
+            picture: figma,
             value: "60",
             type: "danger",
             name:"Figma",
