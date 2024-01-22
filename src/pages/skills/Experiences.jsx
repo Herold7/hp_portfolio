@@ -21,25 +21,29 @@ function Experiences() {
 
     return (
         <>
-            {resumExp.map((skill, index) => (
-                <div className="card shadow border-0 rounded-4 mb-5" key={index}>
-                    <div className="card-body p-5">
-                        <div className="row align-items-center gx-5">
-                            <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                <div className="bg-light p-4 rounded-4">
-                                    <div className="text-primary fw-bolder mb-2">{skill.date}</div>
-                                    <div className="small fw-bolder">{skill.position}</div>
-                                    <div className="small text-muted">{skill.company}</div>
-                                    <div className="small text-muted">{skill.location}</div>
+            <div className="container mt-5" data-aos="zoom-in">
+                <div className="row gx-5 justify-content-center">
+                    {resumExp.map((skill, index) => (
+                        <div className="card container shadow border-0 rounded-4 mb-5" key={index}>
+                            <div className="card-body p-5">
+                                <div className="row align-items-center gx-5">
+                                    <div className="col text-center text-lg-start mb-4 mb-lg">
+                                        <div className="bg-light p-4 rounded-4">
+                                            <div className="text-primary fw-bolder mb-2">{skill.date}</div>
+                                            <div className="small fw-bolder">{skill.position}</div>
+                                            <div className="small text-muted">{skill.company}</div>
+                                            <div className="small text-muted">{skill.location}</div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-8">
+                                        <div>{skill.description}</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-8">
-                                <div>{skill.description}</div>
-                            </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
-            ))}
+            </div>
         </>
     )
 }

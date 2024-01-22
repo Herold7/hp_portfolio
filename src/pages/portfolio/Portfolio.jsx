@@ -23,7 +23,7 @@ function Portfolio() {
                 <section className=" p-5 m-5 shadow border-0 rounded-4" style={{ backgroundColor: 'var(--title-color)' }}>
                     <div className="card text-center" >
                         <div className="card-body ">
-                            <h5 className="card-title display-2 fw-bold ">En route pour de nouveaux projets</h5>
+                            <h5 className="card-title text-lg-center display-5 fw-bold ">En route pour de nouveaux projets</h5>
                             <Link to="/contact" className="btn fs-1 m-5 px-5 text-white"
                                 style={{ backgroundColor: 'var(--text-color)' }}>Prenons contact</Link>
                             <a href={CV} download className="btn fs-1 m-5 px-5 text-white"
