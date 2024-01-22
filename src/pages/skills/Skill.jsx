@@ -34,13 +34,9 @@ function Skill() {
                     expériences
                 </h1>
 
-                <div className="experiences container mt-5" data-aos="zoom-in">
-                    <div className="text-center mb-5">
-                    </div>
-                    <div className="row gx-5 justify-content-center">
-                        <div className="col-lg-8 col-l-9 col-xl-8">
-                            <Experiences />
-                        </div>
+                <div className="container mt-5" data-aos="zoom-in">
+                    <div className="row gx-5 justify-content-center">                       
+                            <Experiences />                      
                     </div>
                 </div>
 

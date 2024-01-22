@@ -20,7 +20,7 @@ function Portfolio() {
 
                 <Project />
 
-                <section className=" p-5 m-5 bd-example m-5 shadow border-0 rounded-4" style={{ backgroundColor: 'var(--title-color)' }}>
+                <section className=" p-5 m-5 shadow border-0 rounded-4" style={{ backgroundColor: 'var(--title-color)' }}>
                     <div className="card text-center" >
                         <div className="card-body ">
                             <h5 className="card-title display-2 fw-bold ">En route pour de nouveaux projets</h5>

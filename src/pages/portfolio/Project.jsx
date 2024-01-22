@@ -59,7 +59,7 @@ function Project() {
 
     return (
         <>
-            <section className=" p-5 m-5 bd-example m-5 shadow border-0 rounded-4 justify-content-md-center" data-aos="zoom-in">
+            <section className=" container p-5 shadow border-0 rounded-4 justify-content-md-center" data-aos="zoom-in">
                 <input className="p-3  m-5 shadow border-0 rounded-4 text-center" type="text" id="nomSiteFilter" placeholder="Filtrer par nom" value={searchTerm}
                     onChange={handleInputChange} />
                 <div id="carouselExampleCaptions" className="carousel slide" style={{ backgroundColor: 'black' }}>
