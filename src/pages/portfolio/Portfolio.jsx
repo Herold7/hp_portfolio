@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Nav from "../../components/Nav";
 import Project from "./Project";
 import { Link } from "react-router-dom";
-import CV from '../../../public/assets/media/img/cv/CV_Herold_Pommier-CDA+.pdf'
+import CV from '../../../public/assets/media/img/cv/CV_Herold_Pommier-CDA.pdf'
 import Footer from "../../components/Footer";
 
 
