@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import home from '../../public/assets/media/img/logo/home.png'
+import home from '../../public/assets/media/img/logo/home-icon.svg'
 
 
 function Nav() {
@@ -29,21 +29,17 @@ function Nav() {
 
 
     return (
-        <nav className="navbar navbar-expand-lg  fixed-top " style={{ backgroundColor: 'var(--first-color)' }} id="navActive">
+        <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: 'var(--first-color)' }} id="navActive">
             <div className="container p-4">
-                <Link to='/' className="navbar-brand text-capitalize">
+                <NavLink to='/' className="navbar-brand text-capitalize" aria-current="page">
                     <h1>hérold pommier</h1>
-                </Link>
+                </NavLink>
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto justify-content-center  gap-5">
                         <li className="nav-item ">
-                            <NavLink to="/competences" className="nav-link text-capitalize " aria-current="page">
+                            <NavLink to="/competences" className="nav-link text-capitalize ">
+                                
                                 <h2>compétences</h2>
                             </NavLink>
                         </li>

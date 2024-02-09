@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import linkedin from '../../public/assets/media/img/logo/linkedin2.png';
-import gitHub from '../../public/assets/media/img/logo/github.png';
+import linkedin from '../../public/assets/media/img/logo/linkedin-plain.svg';
+import gitHub from '../../public/assets/media/img/logo/github-original.svg';
 
 
 
