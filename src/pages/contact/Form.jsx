@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Form() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('import.meta.env.VITE_YOUR_SERVICE_ID', 'import.meta.env.VITE_YOUR_TEMPLATE_ID', form.current, {
+                publicKey: 'import.meta.env.VITE_YOUR_PUBLIC_KEY',
+                reply_to: r.target.reset(),
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
 
     return (
         <>
             <section className="container">
-                <form action="" method="POST" encType="multipart/form-data"
+                <form ref={form} onSubmit={sendEmail}
                     className="needs-validation mx-5 p-5 shadow border-0 rounded-4 needs-validation justify-content-md-center"
                     style={{ marginTop: '7rem', marginBottom: '5rem' }} no validate>
                     <div className=" ">
@@ -13,29 +35,29 @@ function Form() {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="InputName" className="form-label">Nom</label>
-                        <input type="text" className="form-control form-control-lg" id="InputName" aria-describedby="nameHelp"
-                            pattern="[A-Za-z\s]+" maxLength={50} required />
+                        <input type="text" className="form-control form-control-lg" id="InputName" name="name" aria-describedby="nameHelp"
+                            maxLength={50} required />
                         <div className="valid-feedback"> Ok !</div>
                         <div className="invalid-feedback"> Valeur incorrecte</div>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="InputName1" className="form-label">Téléphone</label>
-                        <input type="text" className="form-control form-control-lg" id="InputName1" aria-describedby="nameHelp"
-                            pattern="^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$" maxLength={50} required />
+                        <label htmlFor="InputTel1" className="form-label">Téléphone</label>
+                        <input type="tel" className="form-control form-control-lg" id="InputTel1" name="phone" aria-describedby="nameHelp"
+                            pattern="/(?:([+]\d{1,4})[-.\s]?)?(?:[(](\d{1,3})[)][-.\s]?)?(\d{1,4})[-.\s]?(\d{1,4})[-.\s]?(\d{1,9})/" maxLength={50} required />
                         <div className="valid-feedback"> Ok !</div>
                         <div className="invalid-feedback"> Valeur incorrecte</div>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="InputEmail1" className="form-label">Email</label>
-                        <input type="email" className="form-control form-control-lg" id="InputEmail1"
-                            aria-describedby="emailHelp" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" maxLength={50} required />
+                        <input type="email" className="form-control form-control-lg" id="InputEmail1" name="email"
+                            aria-describedby="emailHelp" pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" maxLength={50} required />
                         <div className="valid-feedback"> Ok !</div>
                         <div className="invalid-feedback"> Valeur incorrecte</div>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="FormControlTextarea1" className="form-label">Textarea</label>
-                        <textarea className="form-control form-control-lg" id="FormControlTextarea1" rows="10"
-                            cols="10" pattern="\b(?:[^\W<>{}]|[\p{L}\p{M}])+?\b" maxLength={255} required></textarea>
+                        <textarea className="form-control form-control-lg" id="FormControlTextarea1" name="message" rows="10"
+                            cols="10" pattern="/[\n\r\0]*(?=\w)(.*)/" maxLength={255} required></textarea>
                         <div className="valid-feedback"> Ok !</div>
                         <div className="invalid-feedback"> Valeur incorrecte</div>
                     </div>

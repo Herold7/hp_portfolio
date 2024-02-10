@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../../components/Nav";
 import Form from "./Form";
+import Form2 from "./Form2";
 import Footer from '../../components/Footer';
 import phone from '../../../public/assets/media/img/logo/phone.png';
 import mail from '../../../public/assets/media/img/logo/mail.png';
@@ -27,7 +28,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <Form />
+                <Form2 />
             </main>
             <Footer />
         </>

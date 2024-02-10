@@ -1,18 +1,20 @@
 import React from "react";
-import html5 from "../../../public/assets/media/img/logo/HTML5.png";
-import css from "../../../public/assets/media/img/logo/css3.png";
-import js from "../../../public/assets/media/img/logo/js.png";
-import php from "../../../public/assets/media/img/logo/php.png";
-import react from "../../../public/assets/media/img/logo/React.png";
-import bootstrap from "../../../public/assets/media/img/logo/bootstrap.png";
-import symfony from "../../../public/assets/media/img/logo/symfony.png";
-import vsc from "../../../public/assets/media/img/logo/vscode.png";
-import phpstorm from "../../../public/assets/media/img/logo/PhpStorm.png";
+import html5 from "../../../public/assets/media/img/logo/html5-plain.svg";
+import css from "../../../public/assets/media/img/logo/css3-plain.svg";
+import js from "../../../public/assets/media/img/logo/javascript-original.svg";
+import php from "../../../public/assets/media/img/logo/php-plain.svg";
+import react from "../../../public/assets/media/img/logo/react-original.svg";
+import bootstrap from "../../../public/assets/media/img/logo/bootstrap-plain.svg";
+import symfony from "../../../public/assets/media/img/logo/symfony-original.svg";
+import vsc from "../../../public/assets/media/img/logo/vscode-original.svg";
+import phpstorm from "../../../public/assets/media/img/logo/phpstorm-plain.svg";
+import datagrip from "../../../public/assets/media/img/logo/datagrip-plain.svg";
 import workbench from "../../../public/assets/media/img/logo/mysqlWorkbench.png";
-import git from "../../../public/assets/media/img/logo/git.png";
-import github from "../../../public/assets/media/img/logo/github.png";
-import cms from "../../../public/assets/media/img/logo/cms.png";
-import figma from "../../../public/assets/media/img/logo/Figma.png";
+import git from "../../../public/assets/media/img/logo/git-original.svg";
+import github from "../../../public/assets/media/img/logo/github-original.svg";
+import wordpress from "../../../public/assets/media/img/logo/wordpress-plain.svg";
+import figma from "../../../public/assets/media/img/logo/figma-original.svg";
+import trello from "../../../public/assets/media/img/logo/trello-original.svg";
 
 function SkillsTech() {
 
@@ -93,16 +95,28 @@ function SkillsTech() {
             name: "Github",
         },
         {
-            picture: cms,
+            picture: wordpress,
             value: "80",
             type: "success",
-            name: "Cms",
+            name: "wordpress",
         },
         {
             picture: figma,
             value: "60",
             type: "danger",
             name: "Figma",
+        },
+        {
+            picture: trello,
+            value: "60",
+            type: "danger",
+            name: "Trello",
+        },
+        {
+            picture: datagrip,
+            value: "60",
+            type: "danger",
+            name: "Datagrip",
         },
     ];
 

@@ -202,18 +202,8 @@ a {
     width: calc(100% - 20rem) !important;
 }
 
-/* .competences__data h2 {
-    font-size: 4rem;
-    text-transform: capitalize;
-    color: var(--first-color);
-    position: absolute;
+#c-yup{
+    color: red;
+    font-size: large;
+}
 
-} */
-
-/* .competences__data-technologie h2 {
-    font-size: 4rem;
-    text-transform: capitalize;
-    color: var(--title-color);
-    position: absolute;
-    margin-top: 3rem;
-} */
