@@ -119,7 +119,7 @@ function Project() {
                                     <h2 className="fw-bold">{site.name}</h2>
                                     <p className="fs-2">{site.technology}</p>
                                     <p className="fs-2">{site.description}</p>
-                                    <a href={site.link} className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
+                                    <a href={site.link} target="_blank" className="btn btn-primary fs-1 btn-lg m-5" role="button">Visitez le
                                         site</a>
                                 </div>
                             </div>
