@@ -15,8 +15,8 @@ function Project() {
     const siteProject = [{
         id: 1,
         name: "BnB",
-        technology: "Symfony, SqLite",
-        description: "E-commerce de location d'appartement à l'international",
+        technology: "Symfony, Sqlite",
+        description: "Location d'appartement à l'international",
         picture: portfoliobnb,
         alt: "site de BnB",
         link: "https://github.com/Herold7/bnb"
@@ -52,7 +52,7 @@ function Project() {
         id:5 ,
         name: "Tiny-crm",
         technology: "Symfony, api stripe",
-        description: "Service BtoB",
+        description: "Service BtoB de paiement",
         picture: portfoliotinycrm,
         alt: "Application web Tiny-crm",
         link: "https://github.com/Herold7/tinycr8"
@@ -61,7 +61,7 @@ function Project() {
         id: 6,
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
-        description: "Site internet de conciergerie de luxe pour le Mozambique",
+        description: "Site internet de conciergerie de luxe vers le Mozambique",
         picture: portfolioexistentia,
         alt: "site de existentia services",
         link: "https://www.existentiaservices.com"
