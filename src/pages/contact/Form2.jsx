@@ -42,7 +42,7 @@ function Form() {
 
         }
     };
-    const publicId = import.meta.env.VITE_YOUR_PUBLIC_KEY;
+    const publicId = w8qdr60q4EL2CZNrX;
     const sendFeedBack = (serviceId, templateId, variables) => {
         emailjs
             .send(serviceId, templateId, variables, publicId)
