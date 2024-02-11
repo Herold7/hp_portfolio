@@ -1,14 +1,46 @@
 import React from "react";
 import { useState } from 'react';
+import github from "../../../public/assets/media/img/logo/github-original.svg";
 import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
 import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
 import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
 import portfolioplatine from "../../../public/assets/media/img/bg/portfolioplatine.png";
+import portfoliochatbot from "../../../public/assets/media/img/bg/portfoliochatbot.png";
+import portfolioartemis from "../../../public/assets/media/img/bg/portfolioartemis.png";
+import portfoliobnb from "../../../public/assets/media/img/bg/portfoliobnb.png";
+import portfoliotinycrm from "../../../public/assets/media/img/bg/portfoliotinycrm.png";
 
 
 function Project() {
     const siteProject = [{
         id: 1,
+        name: "BnB",
+        technology: "Symfony, SqLite",
+        description: "E-commerce de location d'appartement à l'international",
+        picture: portfoliobnb,
+        alt: "site de BnB",
+        link: "https://github.com/Herold7/bnb"
+    },
+    {
+        id: 2,
+        name: "Artemis",
+        technology: "PHP, Mysql",
+        description: "solution numérique de gestion de bibliothèque",
+        picture: portfolioartemis,
+        alt: "site de artemis",
+        link: "https://github.com/Herold7/artemis-cda"
+    },
+    {
+        id: 3,
+        name: "Chatbot dev",
+        technology: "React, Vite, api openai",
+        description: "Chatbot spécialisé dans les langages dev",
+        picture: portfoliochatbot,
+        alt: "site du chatbot",
+        link: "https://cda-tp-validation-1.vercel.app"
+    },
+    {
+        id: 4,
         name: "Makeda_for_event",
         technology: "CMS",
         description: "Site internet d'évènementiel musical",
@@ -17,7 +49,16 @@ function Project() {
         link: "https://www.makeda-for-event.com"
     },
     {
-        id: 2,
+        id:5 ,
+        name: "Tiny-crm",
+        technology: "Symfony, api stripe",
+        description: "Service BtoB",
+        picture: portfoliotinycrm,
+        alt: "Application web Tiny-crm",
+        link: "https://github.com/Herold7/tinycr8"
+    },
+    {
+        id: 6,
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe pour le Mozambique",
@@ -26,7 +67,7 @@ function Project() {
         link: "https://www.existentiaservices.com"
     },
     {
-        id: 3,
+        id: 7,
         name: "Makeda_for_mariage",
         technology: "CMS",
         description: "Site de prestations musicales pour le mariage",
@@ -35,7 +76,7 @@ function Project() {
         link: "https://www.makeda-for-mariage.com"
     },
     {
-        id: 4,
+        id: 8,
         name: "Platine_Music",
         technology: "Wordpress",
         description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
