@@ -28,13 +28,19 @@ function Form() {
         alert("Merci d'avoir rempli le formulaire");
         const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
         const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
-        sendFeedBack(serviceId, templateId, {
-            name: data.name,
-            phone: data.phone,
-            email: data.email,
-            message: data.message,
-            reply_to: r.target.reset(),
-        });
+        try {
+            sendFeedBack(serviceId, templateId, {
+                name: data.name,
+                phone: data.phone,
+                email: data.email,
+                message: data.message,
+                reply_to: r.target.reset(),
+            });
+        } catch (error) {
+            console.error('Il y a une erreur lors de l\'envoi du formulaire', error);
+            alert('Une erreur est survenue lors de l\'envoi du formulaire')
+
+        }
     };
     const publicId = import.meta.env.VITE_YOUR_PUBLIC_KEY;
     const sendFeedBack = (serviceId, templateId, variables) => {
@@ -44,11 +50,7 @@ function Form() {
                 console.log('SUCCESS!');
             })
             .catch((err) => console.error('Il y a une erreur'));
-            
     };
-
-
-    
 
     return (
         <>
