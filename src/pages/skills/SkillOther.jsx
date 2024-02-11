@@ -1,10 +1,10 @@
 import React from "react";
 
-function SkillThird() {
+function SkillOther() {
     const skillHobThird = [
         {
             title: "Gestion administrative",
-            description: "Mes dernières expériences professionnelles et personnelles m'ont demandées d'organiser et d'administrer tant des évènements publics que les projections professionnelles de chercheurs d'emploi.",
+            description: "Mes dernières expériences professionnelles et personnelles m'ont demandé d'organiser et d'administrer tant des évènements publics que les projections professionnelles de chercheurs d'emploi.",
             target: "collapseOne",
         },
         {
@@ -13,7 +13,7 @@ function SkillThird() {
             target: "collapseTwo",
         },
         {
-            title: "Le chant",
+            title: "Chant",
             description: "J'aime le chant sous toutes ses formes. J'ai eu l'occasion de monter et surtout de faire monter sur plusieurs scènes de spectacle des chanteurs et des musiciens.",
             target: "collapseThree",
         },
@@ -28,7 +28,7 @@ function SkillThird() {
                     <div className="text-center mb-5">
 
                         <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline display-3"
-                            style={{ color: 'var(--text-color)', textTransform: 'capitalize' }}>compétences tierces</span></h1>
+                            style={{ color: 'var(--text-color)', textTransform: 'capitalize' }}>autres compétences</span></h1>
 
                     </div>
                     <div className="accordion">
@@ -53,4 +53,4 @@ function SkillThird() {
         </>
     )
 }
-export default SkillThird; 
+export default SkillOther; 

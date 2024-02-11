@@ -8,14 +8,14 @@ function Experiences() {
             position: "Développeur stagiaire",
             company: "A-team Development",
             location: "Colombes",
-            description: "Le client était une agence de voyage de luxe pour le Mozambique. L'objectif étaient de gagner en visibilité afin d\'accroître leur base de prospects et de futur membres. Ce stage m\'a permis de confronter mes connaissances, acquisent lors de la formation DWWM, à un projet concret.",
+            description: "Le client était une agence de voyages de luxe pour le Mozambique. L'objectif était de gagner en visibilité afin d\'accroître leur base de prospects et de futurs membres. Ce stage m\'a permis de confronter mes connaissances, acquises lors de la formation DWWM, à un projet concret."
         },
         {
             date: "2018 - 2021",
             position: "Développeur bénévole",
             company: "Association Makeda",
             location: "Paris",
-            description: "Mes premiers pas dans le monde du développement, en dehors de toutes connaissances techniques préalables. J'ai créé à partir d\'un CMS 4 sites afin que les services de l\'association soient identifiables, dans le cadre de la promotion de groupes de musique."
+            description: "Mes premiers pas dans le monde du développement, en dehors de toutes connaissances techniques préalables. J'ai créé à partir d\'un CMS 4 sites afin que les services de l\'association soient identifiables, dans le cadre de la promotion de groupes musicaux."
         },
     ];
 

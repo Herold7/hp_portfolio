@@ -9,12 +9,12 @@ function SkillHobbies() {
         },
         {
             Title: "Sports",
-            description: "J'apprécie le sport tant par sa pratique qu'en tant que spectateur. Que ce soit en extérieur, ou en salle ; seul ou accompagné l'activité sportive et physique est essentiel.",
+            description: "J'apprécie le sport tant par sa pratique qu'en tant que spectateur. Que ce soit en extérieur, ou en salle ; seul ou accompagné l'activité sportive et physique est essentielle.",
             target: "collapseFive",
         },
         {
             Title: "Mangas",
-            description: "J'appartiens à une génération qui a découvert les mangas au travers de la télévision, pour enfin me diriger vers les screen et les formats papiers. Ces productions sont un plus pour l'inspiration",
+            description: "J'appartiens à une génération qui a découvert les mangas au travers de son écran de télévision, pour enfin me diriger vers les screens et les formats papiers. Ces productions sont un plus pour mon inspiration",
             target: "collapseSix",
         },
     ];
