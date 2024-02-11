@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../../components/Nav";
 import Experiences from "./Experiences";
 import SkillsTech from "./SkillsTech";
+import SkillsTech2 from "./SkillsTech2";
 import SkillHobbies from "./SkillHobbies";
 import Footer from "../../components/Footer"
 import SkillOther from "./SkillOther";
@@ -18,7 +19,7 @@ function Skill() {
                     compétences
                 </h1>
                 
-                        <SkillsTech />
+                        <SkillsTech2 />
                     
 
                 <h1>
