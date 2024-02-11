@@ -26,8 +26,8 @@ function Form() {
 
     const onSubmit = (data, r) => {
         alert("Merci d'avoir rempli le formulaire");
-        const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
-        const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
+        const serviceId = 'service_vqmn109';
+        const templateId = 'template_ho47x65';
         try {
             sendFeedBack(serviceId, templateId, {
                 name: data.name,
