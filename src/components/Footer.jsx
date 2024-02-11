@@ -9,7 +9,7 @@ function Footer() {
 
     return (
 
-        <footer className=" bg-black text-white py-4 mt-auto" style={{ background: 'linear-gradient(269deg, #d6974d, #60768a, #277aff)'
+        <footer className="text-white py-4 mt-auto" style={{ background: 'linear-gradient(269deg, #d6974d, #60768a, #277aff)'
         }}>
             <div className="container px-5">
                 <div className="row align-items-center justify-content-between flex-column flex-sm-row">
