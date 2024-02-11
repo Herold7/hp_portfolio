@@ -34,12 +34,14 @@ function Nav() {
                 <NavLink to='/' className="navbar-brand text-capitalize" aria-current="page">
                     <h1>hérold pommier</h1>
                 </NavLink>
-
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto justify-content-center  gap-5">
                         <li className="nav-item ">
                             <NavLink to="/competences" className="nav-link text-capitalize ">
-                                
                                 <h2>compétences</h2>
                             </NavLink>
                         </li>
