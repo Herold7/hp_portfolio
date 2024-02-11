@@ -8,14 +8,14 @@ function About() {
 
     return (
 
-        <section className=" about container" data-aos="fade-down">
+        <section className="about container" data-aos="fade-down">
             <div className="card mt-5 p-5 shadow border-0 rounded-4" style={{ maxWidth: '100%', marginBottom: '5rem' }}>
                 <div className="row g-0">
-                    <div className="col-lg-4 ">
+                    <div className="col-xl-5 ">
                         <img src={portrait} className="img-fluid rounded-start-4"
                             alt="portrait de hérold pommier" />
                     </div>
-                    <div className="col-md-8 container">
+                    <div className="col-xl-7 container">
                         <div className="card-body">
                             <h2 className=" display-1 mb-3 ps-5 text-center card-title">A propos de moi</h2>
                             <p className="card-text p-3 ms-3 fs-3 sm">

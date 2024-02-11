@@ -11,7 +11,7 @@ function Form() {
         name: yup.string().required("Veuillez renseigner votre nom").matches(/^[a-zA-ZÀ-ÖØ-öø-ÿ\s]{1,50}$/, "Merci de ne pas utiliser de caractères spéciaux").max(50),
         phone: yup.string().required("Veuillez renseigner votre numéro de téléphone")
             .matches(/(?:([+]\d{1,4})[-.\s]?)?(?:[(](\d{1,3})[)][-.\s]?)?(\d{1,4})[-.\s]?(\d{1,4})[-.\s]?(\d{1,9})/, "Merci de renseigner un numéro de téléphone valide")
-            .max(50),
+            .max(12),
         email: yup.string().email().required("Veuillez renseigner votre adresse email")
             .matches(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, "Merci de renseigner une adresse email valide")
             .max(50),
@@ -56,7 +56,7 @@ function Form() {
                 <form onSubmit={handleSubmit(onSubmit)}
                     className="mx-5 p-5 shadow border-0 rounded-4 justify-content-md-center"
                     style={{ marginTop: '7rem', marginBottom: '5rem' }} >
-                    <div className=" ">
+                    <div className="mb-3">
                         <h3 className="contain mb-5 display-3 text-center fw-bold text-primary">Rencontrons-nous</h3>
                     </div>
                     <div className="mb-3">

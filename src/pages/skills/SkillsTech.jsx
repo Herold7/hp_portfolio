@@ -122,14 +122,14 @@ function SkillsTech() {
 
     return (
         <>
-        <section className="competences container-fluid" data-aos="zoom-in">
+        <section className="container-fluid" data-aos="zoom-in">
             <div className="container mt-5 p-5 shadow border-0 rounded-4">
                 <div className="competences__data">
-                    <h2 className="contain mb-5 display-2 text-start fw-bold" style={{color: 'var(--title-color)'}}>
+                    <h2 className="mb-3 display-2 text-start fw-bold" style={{color: 'var(--title-color)'}}>
                         Langages
                     </h2>
                 </div>
-                <div className="row" style={{ marginTop: '7rem' }}>
+                <div className="row" >
                     {skillsTech1.map((skill, index) => (
                         <div className="mt2 col-lg-12" key={index}>
                             <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}>{skill.name}</h3>
@@ -145,13 +145,13 @@ function SkillsTech() {
                     ))}
                 </div>
                 <div className="competences__data">
-                    <h2 className="contain mt-5 pt-5 display-2 text-start fw-bold" style={{color: 'var(--first-color)'}}>
+                    <h2 className="mb-3 pt-5 display-2 text-start fw-bold" style={{color: 'var(--first-color)'}}>
                         Technologies
                     </h2>
                 </div>
-                <div className="row" style={{ marginTop: ' 10rem' }}>
+                <div className="row">
                     {skillsTech2.map((skill, index) => (
-                        <div className="mt2 col-lg-12 " key={index}>
+                        <div className="col-lg-12 " key={index}>
                             <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}>{skill.name}</h3>
                             <div className="progress  mb-4" role="progressbar" style={{ height: ' 20px' }}
                                 aria-label={`striped example 20px high${skill.type}`} aria-valuenow={skill.value} aria-valuemin="0"
