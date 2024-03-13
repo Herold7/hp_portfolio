@@ -18,7 +18,7 @@ function About() {
                     <div className="col-xl-7 container">
                         <div className="card-body">
                             <h2 className=" display-4 fw-bold mb-3 ps-5 text-center card-title">A propos de moi</h2>
-                            <p className="card-text p-3 ms-3 fs-3 sm">
+                            <p className="card-text p-3 ms-3 fs-3 sm" id="aboutp">
                                 Actuellement en formation, je suis passionné par l'univers dynamique et créatif du
                                 développement web.
                                 Ce qui m'attire dans cette voie, c'est la possibilité de donner vie à

@@ -131,7 +131,7 @@ function SkillsTech2() {
                 </div>
                 <div className="row justify-content-center gap-5 mb-5" >
                     {skillsTech1.map((skill, index) => (
-                        <div className="mt2 mb-5 col-lg-12 " style={{ width: '10rem' }} key={index}>
+                        <div className="mt2 mb-5 col-lg-12 " id='skillsTech1' style={{ width: '10rem' }} key={index}>
                             <h4 className={`m-3  text-${skill.type} text-center`} style={{ fontWeight: 'bold' }}>{skill.name}</h4>
                             <img src={skill.picture} className="object-fit-cover" alt="logo_des_technologies"/>
                         </div>
@@ -144,7 +144,7 @@ function SkillsTech2() {
                 </div>
                 <div className="row justify-content-center gap-5">
                     {skillsTech2.map((skill, index) => (
-                            <div className="mt2 col-lg-12" style={{ width: '10rem' }} key={index}>
+                            <div className="mt2 col-lg-12" id='skillsTech1' style={{ width: '10rem' }} key={index}>
                             <h4 className={`m-3  text-${skill.type} text-center`} style={{ fontWeight: 'bold' }}>{skill.name}</h4>
                             <img src={skill.picture} className="object-fit-cover" alt="logo_des_technologies"/>
                         </div>

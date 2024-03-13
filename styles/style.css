@@ -210,6 +210,8 @@ a {
     font-size: medium;
 }
 
+/*=============== RESPONSIVE ===============*/
+
 @media screen and (max-width: 1150px) {
 
     .hero__data li img {
@@ -220,14 +222,12 @@ a {
     .hero__data ul {
         margin-top: 9rem;
     }
-
 }
 
 @media screen and (max-width: 900px) {
     .hero__data ul {
         margin-top: 4rem;
     }
-
 }
 
 
@@ -253,7 +253,6 @@ a {
     .hero h1 span {
         font-size: 4rem;
     }
-
 }
 
 @media screen and (max-width: 510px) {
@@ -277,6 +276,10 @@ a {
     .hero__data li img {
         width: 7rem;
     }
+
+    #contact{
+        width: 29rem !important;
+    }
 }
 
 
@@ -285,4 +288,27 @@ a {
     .contain>h1 {
         font-size: 4rem;
     }
+
+    .hero__data ul {
+        gap: 6rem;
+    }
+
+    * {
+        font-size: 1.7rem;
+    }
+    #skillsTech1{
+width:8rem !important;
+margin-bottom: 0 !important;
+    }
+
+    #skillsTech2{
+width:8rem !important;
+    }
+
+    #aboutp{
+margin-left: -2rem !important;
+margin-right: -2rem !important;
+    }
+    
+
 }

@@ -16,8 +16,8 @@ function Contact() {
                 <h1>
                     contact
                 </h1>
-                <div className="container text-center" style={{ width: '30%' }}>
-                    <div className="row">
+                <div className="container text-center" id="contact" style={{ width: '35rem' }}>
+                    <div className="row" id="contactrow">
                         <div className=" g-col-sm-4  mt-5 p-5 shadow border-0 rounded-4" data-aos="fade-left">
                             <img src={phone} style={{ width: '5rem', marginBottom: '3rem' }} />
                             <h3 className="phoneNumber ">+33 6 27 26 22 76</h3>
