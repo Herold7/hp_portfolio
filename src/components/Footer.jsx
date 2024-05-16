@@ -7,6 +7,8 @@ import gitHub from '../../public/assets/media/img/logo/github-original.svg';
 
 function Footer() {
 
+    const copyDate = new Date().getFullYear();
+    
     return (
 
         <footer className="text-white py-4 mt-auto" style={{ background: 'linear-gradient(269deg, #d6974d, #60768a, #277aff)'
@@ -14,7 +16,7 @@ function Footer() {
             <div className="container px-5">
                 <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div className="col-auto">
-                        <div className="small m-0">Hérold Pommier &copy; Tous droits réservés 2024</div>
+                        <div className="small m-0">Hérold Pommier &copy; Tous droits réservés {copyDate}</div>
                     </div>
                     <div className="col-auto">
                         <Link to="/contact" className="small link-underline link-underline-opacity-0"
