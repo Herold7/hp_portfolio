@@ -26,7 +26,7 @@ function Form() {
 
     const SERVICE_ID = import.meta.env.VITE_YOUR_SERVICE_ID;
     const TEMPLATE_ID = import.meta.env.VITE_YOUR_TEMPLATE_ID;
-    const PUBLIC_KEY = import.meta.env.VITE_YOUR_PUBLIC_KEY;
+    const PUBLIC_KEY = 'w8qdr60q4EL2CZNrX';
     
     const onSubmit = (data, r) => {
         alert("Merci d'avoir rempli le formulaire");     
