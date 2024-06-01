@@ -39,10 +39,9 @@ function Form() {
             alert('Une erreur est survenue lors de l\'envoi du formulaire')
         }
     };
-   
     const sendFeedBack = (serviceId, templateId, variables) => {
         emailjs
-            .send(import.meta.env.serviceId, import.meta.env.templateId, variables, import.meta.env.publicId)
+            .send(import.meta.env.serviceId, import.meta.env.templateId, variables, import.meta.env.public_key)
             .then((res) => {
                 console.log('SUCCESS!');
             })
