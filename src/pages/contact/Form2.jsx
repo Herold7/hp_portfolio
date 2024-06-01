@@ -27,7 +27,7 @@ function Form() {
     const onSubmit = (data, r) => {
         alert("Merci d'avoir rempli le formulaire");     
         try {
-            sendFeedBack(serviceId, templateId, {
+            sendFeedBack(import.meta.env.serviceId, import.meta.env.templateId, {
                 name: data.name,
                 phone: data.phone,
                 email: data.email,
