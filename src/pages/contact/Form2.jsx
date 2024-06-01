@@ -25,9 +25,7 @@ function Form() {
     });
 
     const onSubmit = (data, r) => {
-        alert("Merci d'avoir rempli le formulaire");
-        const serviceId = 'service_vqmn109';
-        const templateId = 'template_ho47x65';
+        alert("Merci d'avoir rempli le formulaire");     
         try {
             sendFeedBack(serviceId, templateId, {
                 name: data.name,
@@ -39,13 +37,12 @@ function Form() {
         } catch (error) {
             console.error('Il y a une erreur lors de l\'envoi du formulaire', error);
             alert('Une erreur est survenue lors de l\'envoi du formulaire')
-
         }
     };
-    const publicId = 'w8qdr60q4EL2CZNrX';
+   
     const sendFeedBack = (serviceId, templateId, variables) => {
         emailjs
-            .send(serviceId, templateId, variables, publicId)
+            .send(import.meta.env.serviceId, import.meta.env.templateId, variables, import.meta.env.publicId)
             .then((res) => {
                 console.log('SUCCESS!');
             })
