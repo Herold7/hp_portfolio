@@ -24,10 +24,14 @@ function Form() {
         resolver: yupResolver(validationSchema),
     });
 
+    const SERVICE_ID = import.meta.env.VITE_YOUR_SERVICE_ID;
+    const TEMPLATE_ID = import.meta.env.VITE_YOUR_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_YOUR_PUBLIC_KEY;
+    
     const onSubmit = (data, r) => {
         alert("Merci d'avoir rempli le formulaire");     
         try {
-            sendFeedBack(import.meta.env.serviceId, import.meta.env.templateId, {
+            sendFeedBack(SERVICE_ID, TEMPLATE_ID, {
                 name: data.name,
                 phone: data.phone,
                 email: data.email,
@@ -39,9 +43,9 @@ function Form() {
             alert('Une erreur est survenue lors de l\'envoi du formulaire')
         }
     };
-    const sendFeedBack = (serviceId, templateId, variables) => {
+    const sendFeedBack = (SERVICE_ID, TEMPLATE_ID, variables) => {
         emailjs
-            .send(import.meta.env.serviceId, import.meta.env.templateId, variables, import.meta.env.public_key)
+            .send(SERVICE_ID, TEMPLATE_ID, variables, PUBLIC_KEY)
             .then((res) => {
                 console.log('SUCCESS!');
             })
