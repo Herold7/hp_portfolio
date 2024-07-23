@@ -15,84 +15,47 @@ import github from "../../../public/assets/media/img/logo/github-original.svg";
 import wordpress from "../../../public/assets/media/img/logo/wordpress-plain.svg";
 import figma from "../../../public/assets/media/img/logo/figma-original.svg";
 import trello from "../../../public/assets/media/img/logo/trello-original.svg";
+import node from "../../../public/assets/media/img/logo/nodejs-original.svg";
+import Mongodb from "../../../public/assets/media/img/logo/mongodb-original.svg";
+import express from "../../../public/assets/media/img/logo/express.svg";
 
 function SkillsTech2() {
 
     const skillsTech1 = [
         {
-            picture: html5,
-            width: "80",
-            type: "danger",
-            name: "Html",
-        },
-        {
-            picture: css,
-            width: "70",
-            type: "primary",
-            name: "Css",
-        },
-        {
-            picture: js,
-            width: "60",
-            type: "warning",
-            name: "Js",
-        },
-        {
-            picture: php,
-            width: "50",
-            type: "secondary",
-            name: "Php",
+            picture: node,
+            type: "success",
+            name: "Nodejs",
         },
         {
             picture: react,
-            width: "60",
             type: "info",
             name: "React",
         },
         {
-            picture: bootstrap,
-            width: "60",
-            type: "danger",
-            name: "Bootstrap",
+            picture: express,
+            type: "dark",
+            name: "Express",
         },
         {
-            picture: mysql,
-            width: "70",
-            type: "secondary",
-            name: "mysql",
+            picture: Mongodb,
+            type: "success",
+            name: "MongoDB",
         },
         {
             picture: symfony,
-            width: "50",
-            type: "black",
+            type: "dark",
             name: "Symfony",
         },
-    ];
-
-    const skillsTech2 = [
         {
-            picture: vsc,
-            width: "70",
-            type: "primary",
-            name: "Vscode",
+            picture: mysql,
+            type: "info",
+            name: "Mysql",
         },
         {
-            picture: phpstorm,
-            width: "60",
-            type: "black",
-            name: "PhpStorm",
-        },
-        {
-            picture: git,
-            width: "50",
-            type: "danger",
-            name: "Git",
-        },
-        {
-            picture: github,
-            width: "60",
-            type: "black",
-            name: "Github",
+            picture: bootstrap,
+            type: "indigo",
+            name: "Bootstrap",
         },
         {
             picture: wordpress,
@@ -100,23 +63,53 @@ function SkillsTech2() {
             type: "secondary",
             name: "wordpress",
         },
+    ];
+
+    const skillsTech2 = [
+        {
+            picture: html5,
+            type: "danger",
+            name: "html",
+        },
+        {
+            picture: css,
+            type: "primary",
+            name: "css",
+        },     
+        {
+            picture: js,
+            type: "warning",
+            name: "Js",
+        },
+        {
+            picture: php,
+            type: "dark",
+            name: "Php",
+        },
+        {
+            picture: vsc,
+            type: "primary",
+            name: "Vscode",
+        },
+        {
+            picture: git,
+            type: "danger",
+            name: "Git",
+        },
+        {
+            picture: github,
+            type: "black",
+            name: "Github",
+        },
         {
             picture: figma,
-            width: "60",
             type: "danger",
             name: "Figma",
         },
         {
             picture: trello,
-            width: "60",
             type: "primary",
             name: "Trello",
-        },
-        {
-            picture: datagrip,
-            width: "60",
-            type: "black",
-            name: "Datagrip",
         },
     ];
 
@@ -126,7 +119,7 @@ function SkillsTech2() {
             <div className="container mt-5 p-5 shadow border-0 rounded-4">
                 <div className="competences__data">
                     <h2 className="mb-5 display-2 text-start fw-bold" style={{color: 'var(--title-color)'}}>
-                        Langages
+                        Frameworks
                     </h2>
                 </div>
                 <div className="row justify-content-center gap-5 mb-5" >
