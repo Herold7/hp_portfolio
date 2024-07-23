@@ -44,11 +44,11 @@ function Project() {
     {
         id: 4,
         name: "Coryphée",
-        technology: "Symfony, MySQL",
+        technology: "Symfony, Bootsrap, MySQL",
         description: "Annuaire d'artiste",
         picture: portfoliocoryphee,
         alt: "site de coryphée",
-        link: "https://cda-tp-validation-1.vercel.app"
+        link: "https://github.com/Herold7/Coryph-e"
     },
     {
         id: 5,
@@ -56,8 +56,8 @@ function Project() {
         technology: "Wordpress",
         description: "Site de formation aéroportuaire",
         picture: portfoliomyairport,
-        alt: "site du chatbot",
-        link: "https://cda-tp-validation-1.vercel.app"
+        alt: "site du myairportacademy",
+        link: "https://myairportacademy.com"
     },
     {
         id: 6,
