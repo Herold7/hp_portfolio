@@ -9,6 +9,8 @@ import portfoliochatbot from "../../../public/assets/media/img/bg/portfoliochatb
 import portfolioartemis from "../../../public/assets/media/img/bg/portfolioartemis.png";
 import portfoliobnb from "../../../public/assets/media/img/bg/portfoliobnb.png";
 import portfoliotinycrm from "../../../public/assets/media/img/bg/portfoliotinycrm.png";
+import portfoliocoryphee from "../../../public/assets/media/img/bg/portfoliocoryphee.png";
+import portfoliomyairport from "../../../public/assets/media/img/bg/portfoliomyairport.png";
 
 
 function Project() {
@@ -41,6 +43,24 @@ function Project() {
     },
     {
         id: 4,
+        name: "Coryphée",
+        technology: "Symfony, MySQL",
+        description: "Annuaire d'artiste",
+        picture: portfoliocoryphee,
+        alt: "site de coryphée",
+        link: "https://cda-tp-validation-1.vercel.app"
+    },
+    {
+        id: 5,
+        name: "Myairportacademy",
+        technology: "Wordpress",
+        description: "Site de formation aéroportuaire",
+        picture: portfoliomyairport,
+        alt: "site du chatbot",
+        link: "https://cda-tp-validation-1.vercel.app"
+    },
+    {
+        id: 6,
         name: "Makeda_for_event",
         technology: "CMS",
         description: "Site internet d'évènementiel musical",
@@ -49,7 +69,7 @@ function Project() {
         link: "https://www.makeda-for-event.com"
     },
     {
-        id:5 ,
+        id: 7,
         name: "Tiny-crm",
         technology: "Symfony, api stripe",
         description: "Service BtoB de paiement",
@@ -58,7 +78,7 @@ function Project() {
         link: "https://github.com/Herold7/tinycr8"
     },
     {
-        id: 6,
+        id: 8,
         name: "Existentia",
         technology: "HTML, Js, JQuery, PHP, Bootstrap",
         description: "Site internet de conciergerie de luxe vers le Mozambique",
@@ -67,7 +87,7 @@ function Project() {
         link: "https://www.existentiaservices.com"
     },
     {
-        id: 7,
+        id: 9,
         name: "Makeda_for_mariage",
         technology: "CMS",
         description: "Site de prestations musicales pour le mariage",
@@ -76,7 +96,7 @@ function Project() {
         link: "https://www.makeda-for-mariage.com"
     },
     {
-        id: 8,
+        id: 10,
         name: "Platine_Music",
         technology: "Wordpress",
         description: "E-commerce de vente de cd, vynil, K7 de musique hip-hop des années 90's",
