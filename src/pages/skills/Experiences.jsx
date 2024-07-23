@@ -4,6 +4,13 @@ function Experiences() {
 
     const resumExp = [
         {
+            date: "2024",
+            position: "Concepteur Développeur stagiaire",
+            company: "Airport Training Academy",
+            location: "Rungis",
+            description: "Refonte du site internet. L'objectif était de présenter les services de l'organisation et de permettre aux visiteurs de s'inscrirent aux formations."
+        },
+        {
             date: "2023",
             position: "Développeur stagiaire",
             company: "A-team Development",
