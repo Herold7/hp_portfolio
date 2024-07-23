@@ -24,8 +24,8 @@ function Form() {
         resolver: yupResolver(validationSchema),
     });
 
-    const SERVICE_ID = import.meta.env.VITE_YOUR_SERVICE_ID;
-    const TEMPLATE_ID = import.meta.env.VITE_YOUR_TEMPLATE_ID;
+    const SERVICE_ID = 'service_vqmn109';
+    const TEMPLATE_ID = 'template_ho47x65';
     const PUBLIC_KEY = 'w8qdr60q4EL2CZNrX';
     
     const onSubmit = (data, r) => {
