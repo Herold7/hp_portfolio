@@ -134,6 +134,7 @@ a {
     color: var(--title-color);
 }
 
+
 /* ==================== HERO ====================*/
 
 .hero {
@@ -222,6 +223,10 @@ a {
 @media screen and (max-width: 900px) {
     .hero__data ul {
         margin-top: 4rem;
+    }
+
+    #navbarSupportedContent > ul {
+        gap: 0 !important;
     }
 }
 
