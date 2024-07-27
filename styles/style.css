@@ -227,6 +227,11 @@ a {
 
     #navbarSupportedContent > ul {
         gap: 0 !important;
+        margin-top: 1rem;
+    }
+
+    #navbarSupportedContent > ul li {
+        margin-bottom: 2rem;
     }
 }
 
