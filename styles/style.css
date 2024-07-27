@@ -225,13 +225,13 @@ a {
         margin-top: 4rem;
     }
 
-    #navbarSupportedContent > ul {
+    #navbarSupportedContent>ul {
         gap: 0 !important;
-        margin-top: 1rem;
+        margin-top: 1rem !important;
     }
 
-    #navbarSupportedContent > ul li {
-        margin-bottom: 2rem;
+    #navbarSupportedContent>ul li {
+        margin-bottom: 2rem !important;
     }
 }
 
@@ -282,7 +282,7 @@ a {
         width: 7rem;
     }
 
-    #contact{
+    #contact {
         width: 29rem !important;
     }
 }
@@ -301,19 +301,20 @@ a {
     * {
         font-size: 1.7rem;
     }
-    #skillsTech1{
-width:8rem !important;
-margin-bottom: 0 !important;
+
+    #skillsTech1 {
+        width: 8rem !important;
+        margin-bottom: 0 !important;
     }
 
-    #skillsTech2{
-width:8rem !important;
+    #skillsTech2 {
+        width: 8rem !important;
     }
 
-    #aboutp{
-margin-left: -2rem !important;
-margin-right: -2rem !important;
+    #aboutp {
+        margin-left: -2rem !important;
+        margin-right: -2rem !important;
     }
-    
+
 
 }
