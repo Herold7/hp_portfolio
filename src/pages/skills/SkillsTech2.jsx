@@ -17,7 +17,7 @@ import figma from "../../../public/assets/media/img/logo/figma-original.svg";
 import trello from "../../../public/assets/media/img/logo/trello-original.svg";
 import node from "../../../public/assets/media/img/logo/nodejs-original.svg";
 import Mongodb from "../../../public/assets/media/img/logo/mongodb-original.svg";
-import express from "../../../public/assets/media/img/logo/express.svg";
+import express from "../../../public/assets/media/img/logo/Express.svg";
 
 function SkillsTech2() {
 
