@@ -7,8 +7,6 @@ import react from "../../../public/assets/media/img/logo/react-original.svg";
 import bootstrap from "../../../public/assets/media/img/logo/bootstrap-original.svg";
 import symfony from "../../../public/assets/media/img/logo/symfony-original.svg";
 import vsc from "../../../public/assets/media/img/logo/vscode-original.svg";
-import phpstorm from "../../../public/assets/media/img/logo/phpstorm-original.svg";
-import datagrip from "../../../public/assets/media/img/logo/datagrip-original.svg";
 import mysql from "../../../public/assets/media/img/logo/mysql-original.svg";
 import git from "../../../public/assets/media/img/logo/git-original.svg";
 import github from "../../../public/assets/media/img/logo/github-original.svg";
@@ -20,7 +18,6 @@ import Mongodb from "../../../public/assets/media/img/logo/mongodb-original.svg"
 import express from "../../../public/assets/media/img/logo/express1.svg";
 
 function SkillsTech2() {
-
     const skillsTech1 = [
         {
             picture: node,

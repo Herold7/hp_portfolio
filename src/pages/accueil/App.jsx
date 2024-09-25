@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import bghero1 from '../../../public/assets/media/img/bg/bghero1.png';
 import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
@@ -9,7 +8,6 @@ import cms from '../../../public/assets/media/img/logo/wordpress-plain2.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-
     return (
         <>
             <img className="bg-image img-fluid rounded" src={bghero1} alt="" />

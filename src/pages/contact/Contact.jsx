@@ -8,7 +8,6 @@ import mail from '../../../public/assets/media/img/logo/mail.png';
 
 
 function Contact() {
-
     return (
         <>
             <Nav />

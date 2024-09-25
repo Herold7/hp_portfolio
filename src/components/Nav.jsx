@@ -2,10 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import home from '../../public/assets/media/img/logo/home-icon.svg'
 
-
 function Nav() {
-
-
     // const [scrolled, setScrolled] = useState(false);
 
     // useEffect(() => {
@@ -25,8 +22,6 @@ function Nav() {
 
     // }, []); // Empty dependency array ensures that this effect runs once on mount
     // const navbarClasses = `navbar ${scrolled ? 'navbar-scrolled' : ''}`;
-
-
 
     return (
         <nav className="navbar navbar-expand-lg fixed-top " style={{ backgroundColor: 'var(--first-color)' }} id="navActive">

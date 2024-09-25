@@ -19,7 +19,6 @@ function SkillHobbies() {
         },
     ];
 
-
     return (
         <>
             <div className="accordion">

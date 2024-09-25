@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from 'react';
-import github from "../../../public/assets/media/img/logo/github-original.svg";
 import portfolioevent from "../../../public/assets/media/img/bg/portfolioevent.png";
 import portfolioexistentia from "../../../public/assets/media/img/bg/portfolioexistentia.png";
 import portfoliomariage from "../../../public/assets/media/img/bg/portfoliomariage.png";
@@ -11,7 +10,6 @@ import portfoliobnb from "../../../public/assets/media/img/bg/portfoliobnb.png";
 import portfoliotinycrm from "../../../public/assets/media/img/bg/portfoliotinycrm.png";
 import portfoliocoryphee from "../../../public/assets/media/img/bg/portfoliocoryphee.png";
 import portfoliomyairport from "../../../public/assets/media/img/bg/portfoliomyairport.png";
-
 
 function Project() {
     const siteProject = [{

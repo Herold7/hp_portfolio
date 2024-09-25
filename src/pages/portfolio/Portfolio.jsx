@@ -1,15 +1,11 @@
 import React from "react";
-import { useState } from 'react';
 import Nav from "../../components/Nav";
 import Project from "./Project";
 import { Link } from "react-router-dom";
 import CV from '../../../public/assets/media/img/cv/CV_Herold_Pommier-dev-color.pdf'
 import Footer from "../../components/Footer";
 
-
-
 function Portfolio() {
-
     return (
         <>
             <Nav />

@@ -3,14 +3,10 @@ import { Link } from "react-router-dom";
 import linkedin from '../../public/assets/media/img/logo/linkedin-plain.svg';
 import gitHub from '../../public/assets/media/img/logo/github-original.svg';
 
-
-
 function Footer() {
-
     const copyDate = new Date().getFullYear();
     
     return (
-
         <footer className="text-white py-4 mt-auto" style={{ background: 'linear-gradient(269deg, #d6974d, #60768a, #277aff)'
         }}>
             <div className="container px-5">
@@ -31,7 +27,6 @@ function Footer() {
                 </div>
             </div>
         </footer>
-
     )
 }
 

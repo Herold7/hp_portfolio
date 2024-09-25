@@ -2,12 +2,8 @@ import React from "react";
 import portrait from "../../../public/assets/media/img/portrait/portrait.png";
 import { Link } from "react-router-dom";
 
-
 function About() {
-
-
     return (
-
         <section className="about container" data-aos="fade-down">
             <div className="card mt-5 p-5 shadow border-0 rounded-4" style={{ maxWidth: '100%', marginBottom: '5rem' }}>
                 <div className="row g-0">

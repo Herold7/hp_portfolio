@@ -17,9 +17,7 @@ function SkillOther() {
             description: "J'aime le chant sous toutes ses formes. J'ai eu l'occasion de monter et surtout de faire monter sur plusieurs scènes de spectacle des chanteurs et des musiciens.",
             target: "collapseThree",
         },
-
     ];
-
 
     return (
         <>

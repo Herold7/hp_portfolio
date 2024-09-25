@@ -17,7 +17,6 @@ import figma from "../../../public/assets/media/img/logo/figma-original.svg";
 import trello from "../../../public/assets/media/img/logo/trello-original.svg";
 
 function SkillsTech() {
-
     const skillsTech1 = [
         {
             picture: html5,
