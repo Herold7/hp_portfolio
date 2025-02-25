@@ -60,7 +60,7 @@ function Project() {
     {
         id: 6,
         name: "Makeda_for_event",
-        technology: "CMS",
+        technology: "Wordpress",
         description: "Site internet d'évènementiel musical",
         picture: portfolioevent,
         alt: "site de makeda for event",
@@ -87,7 +87,7 @@ function Project() {
     {
         id: 9,
         name: "Makeda_for_mariage",
-        technology: "CMS",
+        technology: "Wordpress",
         description: "Site de prestations musicales pour le mariage",
         picture: portfoliomariage,
         alt: "site de makeda for mariage",
